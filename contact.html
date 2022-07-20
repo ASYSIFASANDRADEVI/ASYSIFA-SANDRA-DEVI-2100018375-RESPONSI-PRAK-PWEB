@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSI PEMROGRAMAN WEB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-nav">
+            <div class="site-title">
+                <h1>SIPANJUL BARBERSHOP</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="current-page">Contact</a></li>
+                     <li><a href="gabung.html">Gabung</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main class="contact">
+        <h1>HUBUNGI DI BAWAH UNTUK BOOKING</h1>
+        <div class="flex-container">
+            <div class="flex-item-left">
+                <h4>Lokasi</h4>
+                <p>Jl.Perhubungan 1 rt 32 rw 06</p>
+                <p>Sumatra, Kota Bengkulu</p>
+                <h4>Buka</h4>
+                <p>11.00 am - 22.00 pm
+                <h4>No.telp</h4>
+                <p>081366159289</p>
+                <h4>Email</h4>
+                <p>sipanjul111703@gmail.com</p>
+                <h4>Harga</h4>
+                <p>Anak-anak : Rp.15.000<br>Remaja : Rp.20.000<br>Dewasa : Rp.30.000</p>
+            </div>
+            <div class="flex-item-right">
+                <form method="POST" action="proses.php">
+                    <tr>
+                    <td>Nama Lengkap Anda</td>
+                    <input type="text" name="name" id="fname" placeholder="nama">
+                    </tr>
+                    <tr>
+                    <td>Kalangan</td>
+                    <select name="Subject">
+                        <option value="Dewasa">Dewasa</option>
+                        <option value="Anak-anak">Anak-anak</option>
+                        <option value="Remaja">Remaja</option>
+                    </select>
+                    </tr>
+                    <tr>
+                    <td>Model Rambut</td>
+                            <select name="model">
+                            <option value='Model1'>Rambut pertama</option>
+                            <option value='Model2'>Rambut ke-dua</option>
+                            <option value='Model3'>Rambut ke-tiga</option>
+                            <option value='Model4'>Rambut ke-empat</option>
+                            <option value='Model5'>Rambut ke-lima</option>
+                            <option value='Model6'>Rambut ke-enam</option>
+                            <option value='Model7'>Rambut ke-tujuh</option>
+                            <option value='Model8'>Rambut ke-delapan</option>
+                            <option value='Model9'>Rambut ke-sembilan</option>
+                            <option value='Model10'>Rambut ke-sepuluh</option>
+                            <option value='Model11'>Rambut ke-sebelas</option>
+                            <option value='Model12'>Rambut ke-duabelas</option>
+                            <option value='Model13'>Rambut ke-tigabelas</option>
+                            <option value='Model14'>Rambut ke-empatbelas</option>
+                            <option value='Model15'>Rambut ke-limabelas</option>
+                            <option value='Model16'>Rambut ke-enambelas</option>
+                        </select></tr>
+                    <tr>
+                    <td>Hari booking</td>
+                        <select name="hari">
+                            <option value="Senin">Senin</option>
+                            <option value="Selasa">Selasa</option>
+                            <option value="Rabu">Rabu</option>
+                            <option value="Kamis">Kamis</option>
+                            <option value="Jumat">jumat</option>
+                            <option value="Sabtu">Sabtu</option>
+                            <option value="Minggu">Minggu</option>
+                        </select>
+                    </tr>
+                    <tr>
+                    <td>Waktu booking</td>
+                        <select name="waktu">
+                            <option value="11 siang">11.00 am</option>
+                            <option value="1 siang">13.00 pm</option>
+                            <option value="2 siang">14.00 pm</option>
+                            <option value="3 sore">15.00 pm</option>
+                            <option value="4 sore">16.00 pm</option>
+                            <option value="5 sore">17.00 pm</option>
+                            <option value="6 sore">18.00 pm</option>
+                            <option value="7 malam">19.00 pm</option>
+                            <option value="8 malam">20.00 pm</option>
+                            <option value="9 malam">21.00 pm</option>
+                            <option value="10 malam">22.00 pm</option>
+                        </select>
+                    </tr>
+                    <button type="submit" name="submit" value="submit">submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+   <footer>
+        <div class="container">
+            <small>Copyright &copy; 2022 - ASYSIFA SANDRA DEVI</small>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
